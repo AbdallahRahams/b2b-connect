@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "375276128027",
+    "project_id": "b2b-connect-defa7",
+    "storage_bucket": "b2b-connect-defa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375276128027:android:d44e2ba5e2fa99752275be",
+        "android_client_info": {
+          "package_name": "com.b2b_connect.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375276128027-vso3jg08j6m2jpnqbi1d30bop7lqtl67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b2b_connect.application",
+            "certificate_hash": "66a79775483e3fb1e49ca17de84fca4ee48bc222"
+          }
+        },
+        {
+          "client_id": "375276128027-cfujtdeeqaigufplv4p2eu7jmstjoqll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoK0NCCnrHo045NIRWtDpsayVmVkX4hqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375276128027-cfujtdeeqaigufplv4p2eu7jmstjoqll.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "375276128027-tqp5f6fefdkf89hhptprmvuql48a23he.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.b2bConnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

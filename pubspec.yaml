@@ -1,0 +1,107 @@
+name: b2b_connect
+description: "B2B Connect"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  fluttertoast: 8.0.9
+  flutter_svg: 0.22.0
+  sqflite: 2.0.2
+  provider: 6.0.2
+  intl: 0.17.0
+  intl_phone_field: 3.1.0
+  flutter_launcher_icons: ^0.9.3
+  connectivity: 3.0.6
+  image_picker: 0.8.5
+  shared_preferences: 2.0.13
+  http: 0.13.4
+  sms_autofill: ^2.4.0
+  jiffy: 5.0.0
+  permission_handler: 9.2.0
+  cached_network_image: ^3.2.1
+  device_info_plus: 3.2.2
+  device_information: 0.0.4
+  google_sign_in: 5.0.4
+  firebase_auth: ^5.1.0
+  android_intent_plus: 3.1.1
+  image_cropper: 1.5.1
+  flutter_html: 2.2.1
+  flutter_pdfview: 1.2.2
+  share_plus: 4.0.4
+  url_launcher: 6.0.20
+  record: 3.0.4
+  firebase_core: ^3.1.0
+  dio: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.0"
+
+dependency_overrides:
+  firebase_auth_platform_interface: ^7.4.0
+  firebase_core_platform_interface: ^5.1.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo2.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family:  IconPackOutline
+      fonts:
+        - asset: assets/fonts/icon/IconPackOutline.ttf
+    - family: b2b
+      fonts:
+        - asset: assets/fonts/icon/b2b.ttf
+    - family:  IconPackBold
+      fonts:
+        - asset: assets/fonts/icon/IconPackBold.ttf
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/text/Gilroy-Bold.ttf
+    - family: Google-Sans
+      fonts:
+        - asset: assets/fonts/text/ProductSans-Black.ttf
+          weight: 700
+        - asset: assets/fonts/text/ProductSans-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/text/ProductSans-Light.ttf
+          weight: 400
+        - asset: assets/fonts/text/ProductSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/text/ProductSans-MediumItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/text/ProductSans-Regular.ttf
+          style: italic
+        - asset: assets/fonts/text/ProductSans-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/text/ProductSans-ThinItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/text/ProductSans-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/text/ProductSans-Italic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/text/ProductSans-BoldItalic.ttf
+          style: italic
+          weight: 900
+        - asset: assets/fonts/text/ProductSans-BlackItalic.ttf
+          style: italic
+          weight: 700
